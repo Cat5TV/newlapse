@@ -12,7 +12,7 @@ import (
 
 const (
 	// Quality of images
-	Quality = "50"
+	Quality = "98"
 )
 
 // Folder does everything
