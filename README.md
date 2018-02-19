@@ -1,5 +1,5 @@
 # NewLapse
-This replaces chronolapse on linux
+Hyperlapse Screen Capture for Linux (an alternative to chronolapse)
 
 ## Usage
 ```bash
