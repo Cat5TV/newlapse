@@ -19,7 +19,7 @@ const (
 func Folder(dest string, interv int) {
 	sigs := make(chan os.Signal, 2)
 	signal.Notify(sigs, os.Interrupt, os.Kill)
-	tick := time.Tick(time.Duration(interv) * time.Second)
+	tick := time.Tick(time.Duration(interv) * time.Millisecond)
 	callScrot(dest, time.Now())
 	pic1, _ := ioutil.ReadDir(dest)
 	var size1 float64
