@@ -65,12 +65,12 @@ completed conversion
 
 ## Requirements:
 
-| Programm       | Usage          | Operating System |
-| :------------- | :------------- | :--------------- |
-| scrot          | screenshot     | Linux            |
-| imagemagick    | crop           | Linux, OSX       |
-| ffmpeg         | convert        | Linux, OSX       |
-| screencapture  | screenshot     | OSX              |
+Programm       | Usage          | Operating System
+-------------- | -------------- | ----------------
+scrot          | screenshot     | Linux           
+imagemagick    | crop           | Linux, OSX      
+ffmpeg         | convert        | Linux, OSX      
+screencapture  | screenshot     | OSX             
 
 ```
 # Linux:
