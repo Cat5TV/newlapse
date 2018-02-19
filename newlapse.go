@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mtib/newlapse/capture"
-	"github.com/mtib/newlapse/convert"
-	"github.com/mtib/newlapse/crop"
+	"github.com/cat5tv/newlapse/capture"
+	"github.com/cat5tv/newlapse/convert"
+	"github.com/cat5tv/newlapse/crop"
 )
 
 var (
