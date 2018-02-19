@@ -8,7 +8,7 @@ echo 'But make sure you ONLY PRESS IT ONCE'
 folder='/tmp/hyperlapse' # Set to what you'd like... /home/robbie/hyperlapose for example
 cd $folder
 
-newlapse -ccc -rate 1 -fps 24 -folder "$folder" > /dev/null 2>&1
+newlapse -ccc -rate 300 -fps 24 -folder "$folder" > /dev/null 2>&1
 
 tar -czvf $folder/backup-`date +"%Y-%m-%d-%T"`.tar.gz $folder/*.jpg $folder/1s
 rm $folder/*.jpg
