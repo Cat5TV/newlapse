@@ -5,7 +5,7 @@ echo 'Recording hyperlapse...'
 echo 'When finished, press CTRL-C to save video'
 echo 'But make sure you ONLY PRESS IT ONCE'
 
-folder='/home/tali/hyperlapse'
+folder='/tmp/hyperlapse' # Set to what you'd like... /home/robbie/hyperlapose for example
 cd $folder
 
 newlapse -ccc -rate 1 -fps 24 -folder "$folder" > /dev/null 2>&1
