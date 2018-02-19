@@ -3,13 +3,13 @@ This replaces chronolapse on linux
 
 ## Usage
 ```bash
-newlapse -capture -rate 10 -folder "recording"
+newlapse -capture -rate 10000 -folder "recording"
 newlapse -crop -folder "recording"
 newlapse -convert -fps 20
 ```
 You can also do the following
 ```bash
-newlapse -ccc -rate 5 -fps 10 -folder "tmp"
+newlapse -ccc -rate 5000 -fps 10 -folder "tmp"
 ```
 which will capture a picture of the screen every 5 seconds, and save it in the ./tmp folder.
 if you CTRL+C it will start cropping the pictures and convert each screen into a mp4 file.
@@ -33,7 +33,7 @@ Usage of newlapse:
   -fps int
     	ffmpeg framerate for videos (default 20)
   -rate int
-    	seconds to wait between scrots (default 10)
+    	milliseconds to wait between scrots (default 10000)
   -config string
     	config to read screensetup from for cropping (default "nil")
 ```
