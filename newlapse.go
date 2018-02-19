@@ -15,7 +15,7 @@ var (
 	taskCapture     = flag.Bool("capture", false, "tells newlapse to capture")
 	taskConvert     = flag.Bool("convert", false, "tells newlapse to convert %%ds folders to videos")
 	taskCCC         = flag.Bool("ccc", false, "equals '-capture -crop -convert'")
-	captureInterval = flag.Int("rate", 10, "seconds to wait between scrots")
+	captureInterval = flag.Int("rate", 10000, "milliseconds to wait between scrots")
 	folder          = flag.String("folder", "./capture", "which folder to do something with")
 	fps             = flag.Int("fps", 20, "ffmpeg framerate for videos")
 	config          = flag.String("config", "nil", "config to read screensetup from for cropping")
